@@ -6,8 +6,9 @@
         <title>NSClient++</title>
         <authors>Michael Medin</authors>
         <owners>Steven Elder</owners>
-        <licenseUrl>http://nsclient.org/</licenseUrl>
+        <licenseUrl>https://raw.githubusercontent.com/mickem/nscp/master/files/license.txt</licenseUrl>
         <projectUrl>http://nsclient.org/</projectUrl>
+        <packageSourceUrl>https://github.com/acaire/chocolatey-nscp</packageSourceUrl>
         <iconUrl>https://cdn.rawgit.com/TomOne/various/eeae87a5ffe52336769c65c877aa504b4e854682/nscp.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>NSClient++ (nscp) aims to be a simple yet powerful and secure monitoring daemon. It was built for Nagios/Icinga, but nothing in the daemon is Nagios/Icinga specific and it can be used in many other scenarios where you want to receive/distribute check metrics.</description>
