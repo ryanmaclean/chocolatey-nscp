@@ -5,7 +5,7 @@
         <version>0.4.4.19</version>
         <title>NSClient++</title>
         <authors>Michael Medin</authors>
-        <owners>Steven Elder</owners>
+        <owners>Steven Elder,Ash Caire</owners>
         <licenseUrl>https://raw.githubusercontent.com/mickem/nscp/master/files/license.txt</licenseUrl>
         <projectUrl>http://nsclient.org/</projectUrl>
         <packageSourceUrl>https://github.com/acaire/chocolatey-nscp</packageSourceUrl>
