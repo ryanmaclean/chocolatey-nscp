@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>nscp</id>
-        <version>0.4.4.19</version>
-        <title>NSClient++</title>
+        <id>winlogbeat</id>
+        <version>1.2.2</version>
+        <title>Elastic Winlogbeat</title>
         <authors>Michael Medin</authors>
-        <owners>Steven Elder,Ash Caire</owners>
+        <owners>Ryan MacLEan</owners>
         <licenseUrl>https://raw.githubusercontent.com/mickem/nscp/master/files/license.txt</licenseUrl>
         <projectUrl>http://nsclient.org/</projectUrl>
-        <projectSourceUrl>https://github.com/mickem/nscp</projectSourceUrl>
-        <bugTrackerUrl>https://github.com/mickem/nscp/issues</bugTrackerUrl>
-        <docsUrl>http://docs.nsclient.org/0.4.4/</docsUrl>
-        <packageSourceUrl>https://github.com/acaire/chocolatey-nscp</packageSourceUrl>
-        <iconUrl>https://cdn.rawgit.com/TomOne/various/eeae87a5ffe52336769c65c877aa504b4e854682/nscp.png</iconUrl>
+        <projectSourceUrl>https://github.com/elastic/beats</projectSourceUrl>
+        <bugTrackerUrl>https://github.com/elastic/beats/issues</bugTrackerUrl>
+        <docsUrl>https://www.elastic.co/guide/en/beats/winlogbeat/current/index.html</docsUrl>
+        <packageSourceUrl>https://github.com/ryanmaclean/chocolatey-winlogbeat</packageSourceUrl>
+        <iconUrl>https://static-www.elastic.co/assets/blteb1d0b2b9bf6e38f/beats-petals2.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>NSClient++ (nscp) aims to be a simple yet powerful and flexible monitoring daemon. It was built for Nagios/Icinga/Naemon, but nothing in the daemon is Nagios/Icinga specific and it can and is used in many other scenarios where you want to receive/distribute check metrics</description>
-        <summary>NSClient++ (nscp) aims to be a simple yet powerful and flexible monitoring daemon. It was built for Nagios/Icinga/Naemon, but nothing in the daemon is Nagios/Icinga specific and it can and is used in many other scenarios where you want to receive/distribute check metrics</summary>
-        <releaseNotes>https://github.com/mickem/nscp/releases</releaseNotes>
+        <description>Elastic Winlogbeat (winlogbeat) Harness the richness of system, application, and security information from Windows event logs using a lightweight Winlogbeat data collector. Ship events directly to Elasticsearch or parse and enrich them using Logstash prior to visualizing results in Kibana. Introduction video: https://www.elastic.co/webinars/beats-lightweight-shippers-for-all-kinds-of-data?baymax=rtp&elektra=downloads&iesrc=ctr</description>
+        <summary>Beats is the platform for building lightweight, open source data shippers for many types of data you want to enrich with Logstash, search and analyze in Elasticsearch, and visualize in Kibana. Whether you’re interested in log files, infrastructure metrics, or network packets, Beats serves as the foundation for keeping a beat on your data. </summary>
+        <releaseNotes>https://github.com/elastic/beats/tree/master/winlogbeat</releaseNotes>
         <copyright />
-        <tags>NSClient nagios admin</tags>
+        <tags>elk elastic elasticsearch winlogbeat beats kibana logstash</tags>
     </metadata>
 </package>
