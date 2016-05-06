@@ -1,9 +1,3 @@
-﻿$packageName = 'NSClient++'
-$installerType = 'msi'
-$url = 'https://github.com/mickem/nscp/releases/download/0.4.4.19/NSCP-0.4.4.19-Win32.msi'
-$url64 = 'https://github.com/mickem/nscp/releases/download/0.4.4.19/NSCP-0.4.4.19-x64.msi'
+$packageName = 'winlogbeat'
 
-$silentArgs = '/quiet'
-$validExitCodes = @(0)
-
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
+Install-ChocolateyZipPackage 'Winlogbeat' 'https://download.elastic.co/beats/winlogbeat/winlogbeat-1.2.2-windows.zip' "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
